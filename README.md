@@ -27,7 +27,7 @@
 
     ```sh
     
-    git clone https://github.com/ApexCaptain/Allergy-Alert
+    git clone https://github.com/jayson2929/Allergy-Alert
 
     cd Allergy-Alert
 
