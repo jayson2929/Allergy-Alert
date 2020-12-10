@@ -1,0 +1,77 @@
+#contents_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+#contents_box h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+#contents_box h2 {
+    color: #4472C4;
+    font-size: 2rem;
+}
+#contents_box h1 {
+    color: black;
+    font-size: 3rem;
+}
+#option_table {
+    width : 100%;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    border: none;
+}
+#option_table td {
+    background-color: white;
+    border : 2px solid grey;
+    height: 3.7rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+#option_table td.active {
+    color : steelblue;
+    background-image: linear-gradient(-45deg,   steelblue 1rem, white 1rem);
+}
+#option_table td:hover:not(.active) {
+    color : tomato;
+}
+.meal_container {
+    width: 120%;
+    height: 4rem;
+    position: relative;
+    right: 10%;
+    margin-top: 2rem;
+    display: table;
+    border : 1px solid black;
+    border-radius: 1rem;
+  }
+.meal_menu {
+    color: #4472C4;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 0.8rem;
+}
+.meal_icon_container {
+    min-width: 2rem;
+    min-height: 2rem;
+    display: inline-block;
+}
+.meal_icon {
+    vertical-align: middle;
+    padding : 0.5rem;
+    height: 3rem;;
+}
+.meal_price {
+    color: #4472C4;
+    vertical-align: middle;
+    text-align: right;
+    display: table-cell;
+    font-size: 1.5rem;
+    padding-right: 1.0rem;
+}

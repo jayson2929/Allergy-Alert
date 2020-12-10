@@ -1,0 +1,33 @@
+#hall_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+#hall_box {
+    text-align: center;
+    align-items: center;
+}
+#hall_box .active {
+    color: steelblue;
+    background-image: linear-gradient(-45deg,   steelblue 1rem, white 1rem);
+}
+#hall_box .deactive {
+    color: slategray;
+    
+}
+#hall_box div:hover:not(.active) {
+    color: tomato;
+}
+#hall_box div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    float: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+#hall_box :last-child {
+    margin-right: 2em;
+}
